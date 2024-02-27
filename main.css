@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 90%;
+    max-width: 360px; /* Largura máxima */
+    height: auto; /* Altura automática para acomodar o conteúdo */
+    background: hsl(0, 0%, 12%);
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    display: flex;
+    flex-direction: column; /* Para centralizar os botões verticalmente */
+    justify-content: center; /* Para centralizar os botões verticalmente */
+    align-items: center; /* Para centralizar os botões horizontalmente */
+}
+
+.social {
+    gap: 15px; /* Espaçamento entre os botões */
+}
+
+button {
+    width: 100%; /* Largura igual para todos os botões */
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 10px; /* Bordas arredondadas do botão */
+    cursor: pointer;
+    margin: 5px 0; /* Espaçamento sobre as laterais */
+    display: block; /* Torna os botões elementos de bloco */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+button:not(:first-child) {
+    margin-top: 10px; /* Adiciona espaçamento entre os botões, exceto para o primeiro botão */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+h6 {
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsl(75, 94%, 57%);
+}
+
+.icon-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%; /* Deixa a imagem redonda */
+    overflow: hidden; /* Esconde qualquer conteúdo que exceda os limites do contêiner */
+    margin-bottom: 20px; /* Espaçamento entre a imagem de perfil e os botões */
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
